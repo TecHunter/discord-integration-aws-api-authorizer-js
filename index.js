@@ -3,9 +3,7 @@ import { sign } from 'tweetnacl'
 // Your public key can be found on your application in the Developer Portal
 const expectedKid = process.env.PUBLIC_KEY;
 
-export async function handler(event) {
-  const token = event.authorizationToken;
-  
+export async function handler(event) {  
   const signature = event.headers['X-Signature-Ed25519'];
   const timestamp = event.headers['X-Signature-Timestamp'];
   const body = event.body; // rawBody is expected to be a string, not raw bytes
