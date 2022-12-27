@@ -1,0 +1,23 @@
+{
+    "name": "@tecdev/discord-authorizer",
+    "description": "Authorize call only if content matches pubkey",
+    "version": "1.0",
+    "author": "tecdev",
+    "license": "GPL-3.0",
+    "scripts": {
+        "build": "rm -rf dist && esbuild ./src/* --bundle --sourcemap --outfile=dist/index.cjs --platform=node --target=node18 --format=cjs --analyze"
+    },
+    "dependencies": {
+        "tweetnacl": "^1.0.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TecHunter/discord-integration-aws-api-authorizer-js.git"
+    },
+    "devDependencies": {
+        "esbuild": "^0.16.12"
+    },
+    "files": [
+        "dist"
+    ]
+}
