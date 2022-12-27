@@ -25,7 +25,7 @@ export async function handler(event) {
 
   // Return the result of the verification
   return {
-    principalId: decodedToken.sub,
+    principalId: 'me',
     policyDocument: {
       Version: '2012-10-17',
       Statement: [
