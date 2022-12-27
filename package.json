@@ -1,0 +1,12 @@
+{
+    "name": "discord-authorizer",
+    "type": "module",
+    "description": "Authorize call only if content matches pubkey",
+    "version": "1.0",
+    "main": "index.js",
+    "author": "TecHunter",
+    "license": "GNU GPLv3",
+    "dependencies": {
+      "tweetnacl": "^1.0.3"
+    }
+  }
