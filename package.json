@@ -12,5 +12,9 @@
     "repository": {
       "type": "git",
       "url": "https://github.com/TecHunter/discord-integration-aws-api-authorizer-js.git"
+    },
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com",
+      "scope": "@TecHunter"
     }
 }
