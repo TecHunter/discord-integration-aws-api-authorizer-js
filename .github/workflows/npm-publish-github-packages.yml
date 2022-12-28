@@ -30,10 +30,8 @@ jobs:
           node-version: 18
           registry-url: https://npm.pkg.github.com/
           scope: '@TecHunter'
-      - run:
-          echo "//npm.pkg.github.com:_authToken=${{ secrets.GITHUB_TOKEN }}" >
-          ~/.npmrc
+          always-auth: true
 
       - run: yarn publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NPM_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
