@@ -2,15 +2,22 @@
     "name": "@tecdev/discord-authorizer",
     "type": "module",
     "description": "Authorize call only if content matches pubkey",
-    "version": "v1.0.0-alpha.11",
-    "main": "index.js",
+    "version": "v1.0.0-alpha.12",
+    "module": "index.mjs",
     "author": "tecdev",
     "license": "GPL-3.0",
+    "scripts": {
+      "build": "rm -rf dist && esbuild ./src/* --bundle --minify --outfile=dist/index.mjs --platform=node --target=node18 --format=esm"
+    },
     "dependencies": {
-      "tweetnacl": "^1.0.3"
+        "tweetnacl": "^1.0.3"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/TecHunter/discord-integration-aws-api-authorizer-js.git"
-    }
+        "type": "git",
+        "url": "https://github.com/TecHunter/discord-integration-aws-api-authorizer-js.git"
+    },
+    "devDependencies": {
+        "esbuild": "^0.16.12"
+    },
+    "files": ["dist"]
 }
