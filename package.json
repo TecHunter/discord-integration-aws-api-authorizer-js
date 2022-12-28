@@ -1,10 +1,10 @@
 {
-    "name": "@TecHunter/discord-authorizer",
+    "name": "@tecdev/discord-authorizer",
     "type": "module",
     "description": "Authorize call only if content matches pubkey",
-    "version": "v1.0.0-alpha.10",
+    "version": "v1.0.0-alpha.11",
     "main": "index.js",
-    "author": "TecHunter",
+    "author": "tecdev",
     "license": "GPL-3.0",
     "dependencies": {
       "tweetnacl": "^1.0.3"
@@ -12,9 +12,5 @@
     "repository": {
       "type": "git",
       "url": "https://github.com/TecHunter/discord-integration-aws-api-authorizer-js.git"
-    },
-    "publishConfig": {
-      "registry": "https://npm.pkg.github.com",
-      "scope": "@TecHunter"
     }
 }
