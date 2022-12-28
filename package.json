@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "main": "index.js",
     "author": "TecHunter",
-    "license": "GNU GPL V3",
+    "license": "GPL-3.0",
     "dependencies": {
       "tweetnacl": "^1.0.3"
     },

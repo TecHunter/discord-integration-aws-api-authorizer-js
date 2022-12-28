@@ -1,0 +1,25 @@
+{
+    "name": "@TecHunter/discord-authorizer",
+    "version": "1.0.0",
+    "lockfileVersion": 2,
+    "requires": true,
+    "packages": {
+        "": {
+            "name": "@TecHunter/discord-authorizer",
+            "version": "1.0.0",
+            "license": "GPL-3.0",
+            "dependencies": {
+                "tweetnacl": "^1.0.3"
+            }
+        },
+        "node_modules/tweetnacl": {
+            "version": "1.0.3",
+            "license": "Unlicense"
+        }
+    },
+    "dependencies": {
+        "tweetnacl": {
+            "version": "1.0.3"
+        }
+    }
+}
