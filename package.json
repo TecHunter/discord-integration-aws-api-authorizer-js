@@ -2,7 +2,7 @@
     "name": "@TecHunter/discord-authorizer",
     "type": "module",
     "description": "Authorize call only if content matches pubkey",
-    "version": "1.0.0",
+    "version": "v1.0.0-alpha.10,
     "main": "index.js",
     "author": "TecHunter",
     "license": "GPL-3.0",
