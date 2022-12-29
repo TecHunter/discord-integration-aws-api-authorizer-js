@@ -3,12 +3,12 @@
     "type": "module",
     "description": "Authorize call only if content matches pubkey",
     "version": "v1.0.1",
-    "module": "index.mjs",
+    "module": "dist/index.mjs",
     "author": "tecdev",
     "license": "GPL-3.0",
     "scripts": {
       "build": "rm -rf dist && esbuild ./src/* --bundle --minify --outfile=dist/index.mjs --platform=node --target=node18 --format=esm",
-      "publish":  "npm run build && npm publish"
+      "publish":  "npm run build && npm publish --access public"
     },
     "dependencies": {
         "tweetnacl": "^1.0.3"
