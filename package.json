@@ -2,7 +2,7 @@
     "name": "@tecdev/discord-authorizer",
     "type": "module",
     "description": "Authorize call only if content matches pubkey",
-    "version": "v1.0.0-alpha.12",
+    "version": "v1.0.0",
     "module": "index.mjs",
     "author": "tecdev",
     "license": "GPL-3.0",
