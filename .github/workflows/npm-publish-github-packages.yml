@@ -13,7 +13,6 @@ jobs:
         with:
           node-version: 18
       - run: npm ci
-      - run: npm run build
 
   publish-npm:
     needs: build
@@ -30,6 +29,6 @@ jobs:
           always-auth: true
           registry-url: 'https://registry.npmjs.org'
           cache: 'npm'
-      - run: npm publish --access public
+      - run: npm run publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
