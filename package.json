@@ -1,7 +1,7 @@
 {
     "name": "@tecdev/discord-authorizer",
     "description": "Authorize call only if content matches pubkey",
-    "version": "1.0",
+    "version": "1.0.0-final",
     "author": "tecdev",
     "license": "GPL-3.0",
     "scripts": {
